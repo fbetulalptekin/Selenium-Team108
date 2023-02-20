@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class S1 {
+public class S1_IsDisplayed {
 
     /*   1. Tarayıcıyı başlatın
          2. 'http://automationexercise.com' URL'sine gidin
