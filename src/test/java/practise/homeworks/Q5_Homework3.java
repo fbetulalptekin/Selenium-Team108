@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Homework3 {
+public class Q5_Homework3 {
     // .......Exercise5........
     /*
     Navigate to website https://testpages.herokuapp.com/styled/index.html

@@ -46,6 +46,7 @@ public class C02_SwitchToIFrame extends TestBase {
             Bir frame'e gecis yaptiktan sonra
             oradan cikincaya veya baska bir frame'e gecinceye kadar
             driver o frame icerisinde kalir
+
             isimiz bittiginde veya baska frame'e gecmek istedigimizde
             once calisacagimiz yere gecis yapmaliyiz
          */

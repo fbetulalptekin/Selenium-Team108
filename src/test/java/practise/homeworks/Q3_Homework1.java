@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Homework1 {
+public class Q3_Homework1 {
 
     /* ...Exercise3...
     go to url : https://www.techlistic.com/p/selenium-practice-form.html

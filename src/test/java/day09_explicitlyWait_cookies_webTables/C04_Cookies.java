@@ -35,8 +35,8 @@ public class C04_Cookies extends TestBase {
 
         //5- ismi “en sevdigim cookie” ve degeri “cikolatali” olan bir cookie olusturun
         //   ve sayfaya ekleyin
-        Cookie benimCookie = new Cookie("en sevdigim cookie", "cikolatali");
-        driver.manage().addCookie(benimCookie);
+        Cookie myCookie = new Cookie("en sevdigim cookie", "cikolatali");
+        driver.manage().addCookie(myCookie);
 
         cookiesSeti = driver.manage().getCookies();
         siraNo = 1;
