@@ -1,4 +1,4 @@
-package day09_explicitlyWait_cookies_webTables;
+package day08_explicitlyWait_cookies_webTables;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
