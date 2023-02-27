@@ -37,6 +37,7 @@ public class ReusableMethods {
 
         LocalDateTime ldt = LocalDateTime.now();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddhhmmss");
+
         String dinamikDosyaYolu = "target/webelementSs"+ ldt.format(dtf)+".png";
         // dosya yolu "target/tumSayfaSs20230227114813.png"
 

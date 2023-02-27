@@ -45,6 +45,7 @@ public class C02_ReadExcel {
         //      - Satir sayisini bulalim
         // getLastRowNum() son satirin index'ini verir
         System.out.println("satir sayisi : " + (workbook.getSheet("Sayfa1").getLastRowNum() + 1));
+
         //      - Sayfa2'deki satir sayisi ve Fiziki olarak kullanilan satir sayisini bulun
         System.out.println("Sayfa2 satir sayisi : " + (workbook.getSheet("Sayfa2").getLastRowNum() + 1));
         System.out.println("Sayfa2 fiziki kullanilan satir sayisi : " +

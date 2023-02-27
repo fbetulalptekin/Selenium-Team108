@@ -25,7 +25,7 @@ public class C08_JavascriptExecutorClick extends TestBase {
 
         jse.executeScript("arguments[0].scrollIntoView();",otomasyonElementi);
 
-        // ve resmi click yapin ?
+        // ve resmi click yapin
         bekle(2);
 
         jse.executeScript("arguments[0].click();",otomasyonElementi);

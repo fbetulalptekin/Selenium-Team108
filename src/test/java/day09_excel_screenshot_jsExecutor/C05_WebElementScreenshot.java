@@ -30,7 +30,8 @@ public class C05_WebElementScreenshot extends TestBase {
         Assert.assertTrue(actualSonucYazisi.contains(expectedIcerik));
 
         // ve rapora eklenmek icin sonuc yazisi elementinin fotografini cekin
-        // 1- Fotograf cekilecek elementi locate edin
+
+        // 1- Fotograf cekilecek elementi locate edin    (sonucYaziElementi)
         // 2- Dosyayi kaydetmek icin bir File olusturun
         File elementSs = new File("target/elementScreenshot.jpg");
 

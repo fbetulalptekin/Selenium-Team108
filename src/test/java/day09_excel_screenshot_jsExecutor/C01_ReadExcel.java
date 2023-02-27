@@ -17,6 +17,7 @@ public class C01_ReadExcel {
             anlik o dosyadan bilgi almayiz
 
             Bunun yerine class'in basinda, bilgisayarimizdaki excel dosyanin
+
             1- bir kopyasini olusturur
             2- excel'deki tum bilgileri kopya workbook'a yukler
             3- workbook uzerinde yapacagimiz tum islemleri yapariz
@@ -31,7 +32,7 @@ public class C01_ReadExcel {
         String dosyaYolu = "src/test/java/day09/ulkeler.xlsx";
 
         // 2- Dosya yolunu oluşturduğumuz excel'den bilgileri almak için
-        // FileInputStream objesi oluşturmalıyız
+        //    FileInputStream objesi oluşturmalıyız
 
         FileInputStream fis = new FileInputStream(dosyaYolu);
 
@@ -42,7 +43,8 @@ public class C01_ReadExcel {
 
         // Bilgisayarımızdaki excel'in içinde bulunan tüm bilgiler
         // artık workbook objesinde kayıtlı
-        // excel in yapısı gereği, sırayla
+
+        // excel'in yapısı gereği, sırayla
         // - istenen sayfa
         // - istenen satir
         // - istenen hucre

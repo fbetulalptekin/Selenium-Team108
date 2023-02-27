@@ -13,7 +13,7 @@ public class C03_WriteExcel {
     @Test
     public void test01() throws IOException {
 
-        //2) Yeni bir test method olusturalim writeExcelTest()
+        //2) Yeni bir test method olusturalim: writeExcelTest()
         String dosyaYolu = "src/test/java/day09_excel_screenshot_jsExecutor/ulkeler.xlsx";
         FileInputStream fis = new FileInputStream(dosyaYolu);
         Workbook workbook = WorkbookFactory.create(fis);
